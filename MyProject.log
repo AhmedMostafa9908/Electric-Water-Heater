@@ -1,0 +1,22 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\future\Desktop\myproject\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\future\Desktop\myproject\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "MyProject.c" "_7seg.c" "TempSensor.c" "I2C.c" "EEPROM.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 11	1163	Variable 'temp' has been declared, but not used	MyProject.c
+diagnostics: 288	123	Compiled Successfully	MyProject.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 23	123	Compiled Successfully	_7seg.c
+hint: 9	1164	Variable 'ones' has been eliminated by optimizer	_7seg.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 16	123	Compiled Successfully	TempSensor.c
+hint: 10	1164	Variable 'result' has been eliminated by optimizer	TempSensor.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 55	123	Compiled Successfully	I2C.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 85	123	Compiled Successfully	EEPROM.c
+diagnostics: 0	127	All files Compiled in 187 ms	 
+hint: 0	1144	Used RAM (bytes): 32 (9%)  Free RAM (bytes): 320 (91%)	Used RAM (bytes): 32 (9%)  Free RAM (bytes): 320 (91%)
+hint: 0	1144	Used ROM (program words): 1521 (19%)  Free ROM (program words): 6671 (81%)	Used ROM (program words): 1521 (19%)  Free ROM (program words): 6671 (81%)
+diagnostics: 0	125	Project Linked Successfully	MyProject.mcppi
+diagnostics: 0	128	Linked in 31 ms	 
+diagnostics: 0	129	Project 'MyProject.mcppi' completed: 250 ms	 
+diagnostics: 0	103	Finished successfully: 10 Jul 2020, 14:47:41	MyProject.mcppi
